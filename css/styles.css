@@ -1,0 +1,34 @@
+@import url('../baby.jpg');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-image: url(../baby.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+section div {
+    width: 200px;
+    height: 200px;
+    border: solid 10px white;
+
+}
+
+section div:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
